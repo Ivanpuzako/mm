@@ -1,0 +1,13 @@
+md5: 3834f02358ab83d612f681b1e653561a
+cmd: python3 src/splitting.py data/preprocessed/preprocessed.csv data/train_test
+deps:
+- md5: 96122ba0c4170976438291abe5b1261e
+  path: src/splitting.py
+- md5: 5021ee62390728a155d803d2aa62c621
+  path: data/preprocessed/preprocessed.csv
+outs:
+- md5: 25275742cadef8d257fe2d5af26cb206.dir
+  path: data/train_test
+  cache: true
+  metric: false
+  persist: false
