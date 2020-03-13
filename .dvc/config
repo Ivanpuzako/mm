@@ -1,4 +1,2 @@
-[core]
-    remote = myremote
-['remote "myremote"']
-    url = s3://dvc-mleng-storage/data
+['remote "storage"']
+    url = https://dvc-mleng-storage.s3-us-west-2.amazonaws.com
