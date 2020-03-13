@@ -1,4 +1,8 @@
 [core]
-    remote = storage
+    remote = mygdfolder
 ['remote "storage"']
     url = s3://dvc-mleng-storage/data
+['remote "mygdfolder"']
+    url = gdrive://root/data
+    gdrive_client_id = 870756004366-nqetubp0stm5u83pgs2v037a6qlnrel6.apps.googleusercontent.com
+    gdrive_client_secret = VSlkUY0gMWgrZfsGp9TPiZ6F
