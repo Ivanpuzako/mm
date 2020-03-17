@@ -1,4 +1,4 @@
 [core]
     remote = myremote
 ['remote "myremote"']
-    url = https://drive.google.com/drive/u/1/folders/18SOQMPA22OkcQENttGk5CITnwDc9bYUe
+    url = https://dvc-mleng-storage.s3-us-west-2.amazonaws.com/data
