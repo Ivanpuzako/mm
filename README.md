@@ -23,7 +23,7 @@
   Также будут посчитаны метрики \
   $dvc repro evaluate.dvc \
   Для того чтобы помотреть метрики можно ввести \ 
-  $dvc metrics show \
+  $dvc metrics show 
    
    
    
