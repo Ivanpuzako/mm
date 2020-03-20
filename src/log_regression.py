@@ -23,5 +23,3 @@ if not os._exists(output_dir):
     os.mkdir(output_dir)
 model_path = os.path.join(output_dir, 'log_regression.pkl')
 pickle.dump(logistic_regression, open(model_path, 'wb'))
-
-

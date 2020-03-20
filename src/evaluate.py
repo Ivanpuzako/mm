@@ -18,29 +18,8 @@ X_test_path = os.path.join(args.data_dir, 'val_features.pkl')
 y_test_path =  os.path.join(args.data_dir, 'val_labels.pkl')
 
 model, X_test, y_test = [pickle.load(open(file, 'rb')) for file in (model_path, X_test_path, y_test_path)]
-
 y_pred = model.predict_proba(X_test)[:,1]
-
 score  = roc_auc_score(y_test, y_pred)
 
 with open(args.metric_file, 'w') as file:
     file.write(str(score))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

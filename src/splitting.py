@@ -23,8 +23,3 @@ if not os._exists(output_dir):
 for data, file in zip(train_test_split(X_scaled, y, test_size=0.2, random_state=101),  output_filenames): 
     file_path = os.path.join(args.output_dir, file)
     pickle.dump(data, open(file_path, 'wb'))
-
-#X_train.to_csv('data/train_features.csv')
-#X_val.to_csv('data/val_features.csv')
-#y_train.to_csv('data/train_labels.csv')
-#y_val.to_csv('data/val_labels.csv')

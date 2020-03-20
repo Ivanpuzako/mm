@@ -17,11 +17,7 @@ df['Embarked'] = df['Embarked'].fillna('S')
 sex_replace = {'female': 0, 'male': 1}
 df = df.replace({'Sex': sex_replace})
 
-
-
 output_dir = args.output_dir
 if not os._exists(output_dir):
     os.mkdir(output_dir)
 df.to_csv(os.path.join(args.output_dir,'preprocessed.csv'))
-
-
