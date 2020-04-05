@@ -16,7 +16,7 @@ X_train = pickle.load(open(train_data_path,'rb'))
 y_train = pickle.load(open(train_labels_path,'rb'))
 
 
-logistic_regression = LogisticRegression(random_state=101, solver='liblinear')
+logistic_regression = LogisticRegression(random_state=101,C=2.0, solver='liblinear')
 logistic_regression.fit(X_train, y_train.values.ravel())
 
 if not os._exists(output_dir):

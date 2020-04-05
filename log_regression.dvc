@@ -1,12 +1,12 @@
-md5: 8c63ac595f3d8a3ef363c337d0f2df69
+md5: eec48fc06fa262646da68771edf2ad2b
 cmd: python3 src/log_regression.py data/train_test/ ./models
 deps:
-- md5: aa6a481b6491bc3582739964ab43e30c
+- md5: ad599290200d3ea6dfd661504669fa86
   path: src/log_regression.py
 - md5: 25275742cadef8d257fe2d5af26cb206.dir
   path: data/train_test
 outs:
-- md5: 23c6f9c79c2c2f415f104fcc6eb12249.dir
+- md5: 7656b1f99f5a2b54d94b4095f5db8f47.dir
   path: models
   cache: true
   metric: false

@@ -1,12 +1,12 @@
-md5: fd743b143fec8165af304836fbb5f8b9
+md5: e1301373cb5b8a75e1de8a699c62fb30
 cmd: python3 src/evaluate.py data/train_test/ models/log_regression.pkl roc_auc.metric
 deps:
 - md5: 25275742cadef8d257fe2d5af26cb206.dir
   path: data/train_test
-- md5: 8ab1f78f4e46a3c492ea4373dffa1b51
+- md5: 941dd0cbdc89bca8ba690b19e8416190
   path: models/log_regression.pkl
 outs:
-- md5: af50b6eaa9f799734e7c7b1a9d14fffc
+- md5: a757e5585254dbf9701ae131e44ede85
   path: roc_auc.metric
   cache: false
   metric: true
