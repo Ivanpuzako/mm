@@ -1,7 +1,7 @@
-md5: 3834f02358ab83d612f681b1e653561a
+md5: f0f31e5985b9b6b4341a9296147dd59e
 cmd: python3 src/splitting.py data/preprocessed/preprocessed.csv data/train_test
 deps:
-- md5: 96122ba0c4170976438291abe5b1261e
+- md5: 689328db44a26228a5823c671d79df92
   path: src/splitting.py
 - md5: 5021ee62390728a155d803d2aa62c621
   path: data/preprocessed/preprocessed.csv
